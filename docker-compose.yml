@@ -1,0 +1,7 @@
+version: '3.2'
+services:
+  keras:
+    build: ./projects/keras
+    command: sleep 100000000000000
+    volumes:
+      - ./projects/keras:/mnt/projects
